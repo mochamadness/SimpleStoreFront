@@ -7,4 +7,5 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo "CI ran on main only"
+- script: echo "Runs only on main, not PRs"
+  displayName: "echo"
