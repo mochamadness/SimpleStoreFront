@@ -3,10 +3,13 @@ trigger:
     include:
     - main
 
-pr: none
+pr:
+  branches:
+    include:
+    - main
 
 pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo "Hello"
+- script: echo "PR validation running"
