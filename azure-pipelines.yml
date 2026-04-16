@@ -1,5 +1,7 @@
 trigger:
-- main
+  branches:
+    include:
+    - main
 
 pr: none
 
@@ -7,5 +9,4 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo "Runs only on main, not PRs"
-  displayName: "echo"
+- script: echo "Hello"
