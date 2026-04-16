@@ -6,10 +6,10 @@ trigger:
 pr:
   branches:
     include:
-    - main
+    - release/*
 
 pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo "PR validation running"
+- script: echo "PR validation"
