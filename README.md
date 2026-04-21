@@ -1,7 +1,7 @@
 # SimpleStoreFront - Cosmetics & Pharmaceutical Store
 
 A modern, responsive React.js web application for displaying cosmetics and pharmaceutical products with admin capabilities for product management.
-1
+13232
 ## 🌟 Features
 
 ### Customer Features
